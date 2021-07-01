@@ -76,7 +76,7 @@
 					<div class="mid-section main-info-area">
 
 						<div class="wrap-logo-top left-section">
-							<a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>
+							<a href="index.html" class="link-to-home"><img src="{{ asset('assets/images/logo-top-1.png') }}" alt="mercado"></a>
 						</div>
 
 						<div class="wrap-search center-section">
@@ -440,15 +440,15 @@
 		</div>
 	</footer>
 
-	<script src="{{ ('assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
-	<script src="{{ ('assets/js/jquery-ui-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
-	<script src="{{ ('assets/js/bootstrap.min.js')}}"></script>
-	<script src="{{ ('assets/js/jquery.flexslider.js')}}"></script>
-	<script src="{{ ('assets/js/chosen.jquery.min.js')}}"></script>
-	<script src="{{ ('assets/js/owl.carousel.min.js')}}"></script>
-	<script src="{{ ('assets/js/jquery.countdown.min.js')}}"></script>
-	<script src="{{ ('assets/js/jquery.sticky.js')}}"></script>
-	<script src="{{ ('assets/js/functions.js')}}"></script>
+	<script src="{{ asset('assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
+	<script src="{{ asset('assets/js/jquery-ui-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
+	<script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
+	<script src="{{ asset('assets/js/jquery.flexslider.js')}}"></script>
+	<script src="{{ asset('assets/js/chosen.jquery.min.js')}}"></script>
+	<script src="{{ asset('assets/js/owl.carousel.min.js')}}"></script>
+	<script src="{{ asset('assets/js/jquery.countdown.min.js')}}"></script>
+	<script src="{{ asset('assets/js/jquery.sticky.js')}}"></script>
+	<script src="{{ asset('assets/js/functions.js')}}"></script>
     @livewireScripts
 </body>
 </html>
