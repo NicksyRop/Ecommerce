@@ -10,6 +10,7 @@ use Livewire\Component;
 class ShopComponent extends Component
 {
     use WithPagination;
+
     public function render()
     {
 
